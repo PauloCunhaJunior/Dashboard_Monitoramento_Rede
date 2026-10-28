@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+*.log
+# O CSV da atividade contém identificadores de rede. Para repositórios públicos,
+# remova ou anonimize os registros antes de publicar.
+dados/*.csv
+previsualizacao_offline.html
